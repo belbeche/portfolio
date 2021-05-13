@@ -1,0 +1,6 @@
+{
+    "liveServer.settings.proxy": {
+        "proxyUri": "localhost"
+    },
+    "liveServer.settings.useBrowserPreview": true
+}
