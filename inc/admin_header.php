@@ -9,6 +9,7 @@
     <!-- <link rel="stylesheet" href="https://bootswatch.com/5/lux/bootstrap.min.css"> -->
     <link rel="stylesheet" href="<?= WEBROOT;?>/assets/styles.css">
     <!-- <link rel="stylesheet" href="../assets/lumen.css"> -->
+    
 </head>
 <body>
 
@@ -31,6 +32,9 @@
         <li class="nav-item">
           <a class="nav-link" href="category.php">Categories</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" href="work.php">Realisations</a>
+        </li>
         <!-- <li class="nav-item">
           <a class="nav-link" href="#">Services</a>
         </li>
@@ -41,3 +45,7 @@
     </div>
   </div>
 </nav>
+<?= flash();?>
+<div class="container">
+<hr>
+</div>

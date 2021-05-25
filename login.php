@@ -43,7 +43,7 @@ include 'inc/header.php';
         <div class="form-group">
         <label for="password">Mot de passe</label>
             <label for="password"> Password</label>
-            <input type="password" class="form-group" id="password" name="password">
+            <input type="password" class="form-control" id="password" name="password">
         </div>
         <button type="submit" class="btn btn-primary">Se connecter</button>
     </form>

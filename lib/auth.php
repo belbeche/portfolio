@@ -19,6 +19,10 @@ function csrf(){
     return 'csrf='.$_SESSION['csrf'];
 }
 
+function csrfInput(){
+    return '<input type="hidden" value="'.$_SESSION['csrf'].'" name="csrf">';
+}
+
 /**
  * Je vérifie si mon token correspendant à la session enregistré
  * sinon je redirige vers la page du token
@@ -26,11 +30,14 @@ function csrf(){
 
 function checkCsrf(){
     $session = $_SESSION['csrf'];
-    $getCsrf = $_GET['csrf'];
-    if(!isset($session) || $getCsrf != $session) {
-        header('Location:'. WEBROOT .'/csrf.php');
-        die();
-    }
+    if(
+        (isset($session) && $session == $session) ||
+        (isset($_GET['csrf']) && $_GET['csrf'] == $session)
+        ){
+        return true;
+    }else
+    header('Location:csrf.php');
+    die();
 }
 
 ?>

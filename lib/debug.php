@@ -5,7 +5,7 @@
     </div>
     <div class="col-sm-4">
     <h2>CONSTANTE</h2>
-        <?php var_dump(get_defined_constants());?>
+        <?php var_dump($_POST);?>
     </div>
     <div class="col-sm-4">
     <h2>SESSION</h2>
