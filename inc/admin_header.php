@@ -14,38 +14,35 @@
 <body>
 
     <!-- Navigation -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
-  <div class="container">
-    <a class="navbar-brand" href="#">
-          <img src="http://placehold.it/150x50?text=Logo" alt="walid belbeche portfolio">
-        </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-    <div class="collapse navbar-collapse" id="navbarResponsive">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="index.php">Profil
-                <span class="sr-only"><!-- current --></span>
-              </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="category.php">Categories</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="work.php">Realisations</a>
-        </li>
-        <!-- <li class="nav-item">
-          <a class="nav-link" href="#">Services</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
-        </li> -->
-      </ul>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+            <img src="http://placehold.it/150x50?text=Logo" alt="walid belbeche portfolio">
+          </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.php">Profil
+                  <span class="sr-only"><!-- current --></span>
+                </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="category.php">Categories</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="work.php">Realisations</a>
+          </li>
+          <!-- <li class="nav-item">
+            <a class="nav-link" href="#">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li> -->
+        </ul>
+      </div>
     </div>
-  </div>
-</nav>
+  </nav>
 <?= flash();?>
-<div class="container">
-<hr>
-</div>

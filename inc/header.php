@@ -9,7 +9,13 @@
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet"><link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/about.css">
     <link rel="stylesheet" href="assets/styles.css">
+    <link rel="stylesheet" href="assets/lux.css">
     <!-- <link rel="stylesheet" href="assets/lumen.css"> -->
+    <link rel="stylesheet" href="micons/micons.css">
+    <link rel="stylesheet" href="base.css">
+    <link rel="stylesheet" href="fonts.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="vendor.css">
 </head>
 <?= flash();?>
 
@@ -23,13 +29,13 @@
     </div>
   </div>
 </header>
-
+<body id="top">
 <div class="wrapper d-flex align-items-stretch">
     <nav id="sidebar">
             <div class="custom-menu">
                 <button type="button" id="sidebarCollapse" class="btn btn-primary">
-                        <i class="fa fa-bars"></i>
-                        <span class="sr-only">Toggle Menu</span>
+                  <i class="fa fa-bars"></i>
+                  <span class="sr-only">Toggle Menu</span>
                 </button>
             </div>
             <div class="p-4">
@@ -66,7 +72,7 @@
             </div>
         </div>
         <div class="footer">
-	        <p class="text-center"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+	        <p class="text-center"><!-- Link back to Colorlib & http://www.Styleshout.com can't be removed. Template is licensed under CC BY 3.0. -->
 				Copyright &copy;<script>document.write(new Date().getFullYear());</script> | All rights reserved
 				<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
 	    </div>

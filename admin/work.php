@@ -18,7 +18,7 @@ if(isset($_GET['delete'])){
 /**
  * Mes realisation / demandes
  */
-$select = $db->query('SELECT id, name, slug FROM works');
+$select = $db->query('SELECT id, name FROM works');
 $works = $select->fetchAll();
 
 ?>

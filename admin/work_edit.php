@@ -5,7 +5,13 @@ include '../inc/admin_header.php';
 /**
  * Ajout / Modifications
  */
-if(isset($_POST['name']) && isset($_POST['content']) && isset($_POST['category_id'])  && isset($_POST['slug'])){
+
+$name = isset($_POST['name']);
+$content = isset($_POST['content']);
+$category_id = isset($_POST['category_id']);
+$slug = isset($_POST['slug']);
+
+if( $name && $content && $category_id  && $slug){
     $slug = $_POST['slug'];
     if(preg_match('/^[a-z\-0-9]+$/', $category_id)){
         checkCsrf();
@@ -33,7 +39,7 @@ if(isset($_POST['name']) && isset($_POST['content']) && isset($_POST['category_i
 }
 
 /**
- * Update relisation
+ * Update realisation
  */
 
 if(isset($_GET['id'])){
